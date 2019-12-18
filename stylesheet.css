@@ -1,0 +1,15 @@
+body{
+    background-color: blue
+}
+
+div { 
+    background-color: lightblue;
+}
+
+nav { 
+    background-color: darkblue;
+}
+
+p{
+    background-color: none;
+}
