@@ -1,5 +1,18 @@
-import React from "react";
-import ReactDOm from "react-dom";
+import React from "react"
+import ReactDom from "react-dom"
 
-//JSX
-ReactDOm.render(<h1>"Hello World"</h1>, document.getElementById("root"))
+import Navbar from "./Navbar"
+import MainContent from "./MainContent"
+import Footer from "./Footer"
+
+function App() {
+  return(
+    <div>
+        <nav><Navbar/></nav>
+        <MainContent/>
+        <Footer/>
+    </div>
+  )
+}
+
+export default App
